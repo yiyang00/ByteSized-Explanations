@@ -8,6 +8,3 @@ def bubble(A):
         sorted = False # it would just mean the list is still unsorted, thus sorted = False again
         A[i], A[i+1] = A[i+1], A[i] # position swap
   return A
-
-  # when everything is sorted, the if loop would be passed and thus the variable sorted would equal True,
-  # thus, you will get broken out of the while loop and you get your sorted list as the output
